@@ -1,0 +1,11 @@
+
+
+
+ADI 	R02, e
+JC 	       				    LAB
+ADD R01 R02 R03
+LAB: ADX R05 R08 R09
+NOP
+BAS: ORI R11 5
+JNZ BAS
+HLT
